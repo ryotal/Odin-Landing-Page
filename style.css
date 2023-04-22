@@ -53,6 +53,7 @@ ul {
 .hero-text {
     min-width:auto;
     max-width:600px;
+    margin:24px;
 }
 
 button {
