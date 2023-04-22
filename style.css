@@ -91,7 +91,7 @@ img {
     padding:24px;
 }
 
-q {
+.quote {
     font-size:36px;
     font-weight:lighter;
     font-style: italic;
@@ -100,7 +100,12 @@ q {
 }
 
 .third-section {
+    display:flex;
     background-color: #E5E7EB;
+    min-height:300px;
+    justify-content:center;
+    align-items: center;
+    padding:60px;
 }
 
 h4 {
@@ -116,3 +121,4 @@ h4 {
     padding:40px;
     justify-content: space-between;
 }
+
