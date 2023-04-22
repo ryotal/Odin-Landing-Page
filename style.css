@@ -8,22 +8,14 @@ body {
     background-color: #1f2937;
 }
 
-.header {
-    display:flex;
-    align-items:center;
-    justify-content: space-between;
-
-}
-
-.hero {
-    display:flex;
-    align-items:center;
-    justify-content: space-between;
-}
-
 .logo {
     font-size: 24px;
     color:#F9FAF8;
+}
+
+p, ul {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 h2 {
@@ -32,9 +24,11 @@ h2 {
     color:#F9FAF8;
 }
 
-img {
-    max-width:500px;
-    text-align:center;
+.header {
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+
 }
 
 ul {
@@ -42,13 +36,13 @@ ul {
     gap:12px;
 }
 
-p, ul {
-    font-size: 18px;
-    color: #E5E7EB;
+.hero {
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
 }
 
-h2, p, button {
-    margin-top:0px;
-    margin-bottom:8px;
-}
+
+
+
 
